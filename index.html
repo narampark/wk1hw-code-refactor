@@ -10,9 +10,8 @@
   <!--changed to body element as it's the main content of the webpage-->
   <body>
     <!--changed to header element as it's the header of the webpage-->
-    <header class="header">
-      <!--deleted unnecessary code in h1-->
-      <h1>Horiseon</h1>
+    <header>
+      <h1>Hori<span class="seo">seo</span>n</h1>
       <!--changed to nav element as it's used to navigate to the sections of the webpage-->
       <nav>
         <ul>
@@ -36,9 +35,11 @@
       title="four programmers working around a conference table"
     ></div>
     <!--changed to main element because it's the main content of the webpage-->
-    <main class="content">
+    <main>
       <!--changed to section element because the main element is broken into 3 independent sections-->
-      <section class="search-engine-optimization">
+      <!--added id to link navigation to search engine optimization-->
+      <section class="main-content" id="search-engine-optimization">
+        <!--image alt added-->
         <img
           src="./assets/images/search-engine-optimization.jpg"
           alt="overview of desk with SEO written on a notebook"
@@ -52,14 +53,12 @@
           visibility and find the right customers for your business.
         </p>
       </section>
-      <section
-        id="online-reputation-management"
-        class="online-reputation-management"
-      >
+      <section class="main-content" id="online-reputation-management">
+        <!--image alt added-->
         <img
           src="./assets/images/online-reputation-management.jpg"
           alt="laptop with graphical representation of reputation increasing"
-          class="float-right"
+          id="float-right"
         />
         <h2>Online Reputation Management</h2>
         <p>
@@ -70,7 +69,8 @@
           business.
         </p>
       </section>
-      <section id="social-media-marketing" class="social-media-marketing">
+      <section class="main-content" id="social-media-marketing">
+        <!--image alt added-->
         <img
           src="./assets/images/social-media-marketing.jpg"
           alt="group of programmers seated around a table sharing ideas on social media marketing"
@@ -86,10 +86,12 @@
       </section>
     </main>
     <!--changed to aside element for the content displayed on the side of the webpage-->
-    <aside class="benefits">
+    <aside>
       <!--changed to section element because the aside element is broken into 3 independent sections-->
-      <section class="benefit-lead">
+      <!--gave class benefits to separate it from class main-content-->
+      <section class="benefits">
         <h3>Lead Generation</h3>
+        <!--image alt added-->
         <img
           src="./assets/images/lead-generation.png"
           alt="cogwheel funneling into dollar signs"
@@ -99,8 +101,9 @@
           business, bringing customers directly to your website.
         </p>
       </section>
-      <section class="benefit-brand">
+      <section class="benefits">
         <h3>Brand Awareness</h3>
+        <!--image alt added-->
         <img
           src="./assets/images/brand-awareness.png"
           alt="lightbulb emitting waves to represent visibility"
@@ -110,8 +113,9 @@
           the search ranking and visibility for your business.
         </p>
       </section>
-      <section class="benefit-cost">
+      <section class="benefits">
         <h3>Cost Management</h3>
+        <!--image alt added-->
         <img
           src="./assets/images/cost-management.png"
           alt="cogwheel surrounded by dollar signs"
@@ -123,7 +127,7 @@
       </section>
     </aside>
     <!--changed to footer element as it's the footer of the webpage-->
-    <footer class="footer">
+    <footer>
       <h2>Made with ❤️️ by Horiseon</h2>
       <p>&copy; 2023 Horiseon Social Solution Services, Inc.</p>
     </footer>

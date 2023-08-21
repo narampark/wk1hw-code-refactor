@@ -85,7 +85,7 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*changed code to apply to section element class benefits*/
+/*changed code to apply to section element class benefits and merged redundancy*/
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,7 +102,7 @@ aside {
     max-width: 150px;
 }
 
-/*changed code to apply to section element class main content*/
+/*changed code to apply to section element class main content and merged redundancy*/
 .main-content {
     margin-bottom: 20px;
     padding: 50px;
